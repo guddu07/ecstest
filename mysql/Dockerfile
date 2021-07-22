@@ -1,5 +1,5 @@
 # See https://github.com/docker-library/php/blob/master/7.1/fpm/Dockerfile
-FROM mysql:5.7.25
+FROM mysql:5.7.34
 
 ADD ./conf.d/* /etc/mysql/conf.d/
 
